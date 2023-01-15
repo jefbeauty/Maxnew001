@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteJef';
+    src: url("../_fonts/Lobster-Regular.ttf");
+}
+
+body {
+
+    background-color: #024ef1;
+
+}
+
+
+.interface {
+
+    width: 1350px;
+    background-color: white;
+    margin: 10px;
+    padding: 200px 5px 2000px 43px;
+    box-shadow: -20px 1px 4px 1px rgba(255, 255, 255, 0.7);
+}
+
+#cabecalho {
+
+    width: 1300px;
+    border-bottom: 2px solid #5d5d5d;
+    scale: 100%;
+    position: absolute;
+    top: 25%;
+    left: 60px;
+
+
+
+
+}
+
+h1 {
+    font-family: FonteJef,Verdana;
+    font-size: 37px;
+    color: #010181;
+    position: absolute;
+    left: 600px;
+    top: 7%;
+
+
+}
+
+#cabecalho img  {
+
+
+    position: absolute;
+    top: 10%;
+    left: -70px;
+    margin: -300px 10px 20px 5px;
+}
+
+
+.menu {
+
+    background-color: #5d5d5d;
+}
+
+
+
+#menu   {
+    display: block;
+
+
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 195px;
+}
+
+
+#menu li {
+
+    display: inline-block;
+    margin: 20px 5px 0px 5px;
+    padding: 2px;
+    transition: background-color 2s;
+}
+
+
+#menu li :hover {
+
+    background-color: grey;
+    transition: 0s;
+
+}
+
+
+
+a { color: darkblue;
+    font: bolder 19px Arial, Verdana;
+    text-decoration:none;
+
+
+
+}
+
+
+
+#foto1 img {
+
+   position: absolute;
+    left: -100px;
+    top:-10%;
+    scale: 30% ;
+
+}
+/*
+h2 {
+   idth: 400px;
+   left: 400px;
+    position: absolute;
+    top:80%;
+}
+
+*/
+
+
+
+#principal {
+    display: block;
+    width: 150px;
+    float: right;
+     top: 40%;
+    position: absolute;
+
+
+}
+
+#lado {
+
+    display: block;
+    width: 200px;
+    float: right;
+
+
+}
+
+
+
+footer#rodape {
+
+    width: 1300px;
+    clear: both;
+   scale: 10%;
+
+
+}
